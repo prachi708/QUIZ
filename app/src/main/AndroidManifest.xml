@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.agarwalprachi.quiz_2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".WELCOME"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CREATE_DATABASE"
+            android:label="CREATE_DATABASE" >
+        </activity>
+        <activity
+            android:name=".ADMIN_LOGIN"
+            android:label="ADMIN_LOGIN" >
+        </activity>
+        <activity
+            android:name=".STUDENT"
+            android:label="STUDENT_LOGIN" >
+        </activity>
+        <activity
+            android:name=".ADMIN_MENU"
+            android:label="ADMIN_MENU" >
+        </activity>
+        <activity
+            android:name=".ADD_QUESTION"
+            android:label="ADD_QUESTION" >
+        </activity>
+        <activity
+            android:name=".UPDATE_QUESTION"
+            android:label="UPDATE_QUESTION" >
+        </activity>
+        <activity
+            android:name=".ADD_PAPER_CODE"
+            android:label="ADD_PAPER_CODE" >
+        </activity>
+        <activity
+            android:name=".UPDATE_PAPER_CODE"
+            android:label="UPDATE_PAPER_CODE" >
+        </activity>
+        <activity
+            android:name=".DELETE_QUESTION"
+            android:label="DELETE_QUESTION" >
+        </activity>
+        <activity
+            android:name=".ALL_PAPERS_DELETE"
+            android:label="ALL_PAPERS_DELETE" >
+        </activity>
+        <activity
+            android:name=".DISPLAY_PAPER_CODE"
+            android:label="DISPLAY_PAPER_CODE" >
+        </activity>
+        <activity
+            android:name=".DISPLAY_ALL_PAPERS"
+            android:label="DISPLAY_ALL_PAPERS" >
+        </activity>
+        <activity
+            android:name=".DISPLAY_1_PAPER"
+            android:label="DISPLAY_1_PAPER" >
+        </activity>
+        <activity
+            android:name=".DISPLAY_1_QUESTION"
+            android:label="DISPLAY_1_QUESTION" >
+        </activity>
+        <activity
+            android:name=".STUDENT_LOGIN"
+            android:label="STUDENT_LOGIN" >
+        </activity>
+        <activity
+            android:name=".STUDENT_PAPER_CODE"
+            android:label="STUDENT_PAPER_CODE" >
+        </activity>
+        <activity
+            android:name=".CREATE_TEACHER_LOGIN"
+            android:label="CREATE_TEACHER_LOGIN" >
+        </activity>
+        <activity
+            android:name=".START_EXAM"
+            android:label="START_EXAM" >
+        </activity>
+        <activity
+            android:name=".LOGIN"
+            android:label="LOGIN" >
+        </activity>
+    </application>
+
+</manifest>
